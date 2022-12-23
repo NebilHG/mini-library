@@ -1,0 +1,236 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: grey;
+    
+}
+
+header{
+    padding-left: 20px;
+}
+
+
+
+
+/*----------------    content main box-----------*/
+#content{
+    height:600px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color:gray;
+    gap: 2rem;
+    
+    
+    
+    
+}
+
+#content p{
+    font: italic 1em "Fira Sans", serif; 
+}
+
+#content h3{
+     font-family: Papyrus, fantasy; 
+     font-size: 20px; 
+     
+}
+
+
+
+
+
+
+#BookNr1{
+    width: 200px;
+    height: 250px;
+    background-color:#2F80ED;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr1:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+
+#BookNr2{
+    width: 200px;
+    height: 250px;
+    background-color:#27AE60 ;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+   
+}
+#BookNr2:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr3{
+    width: 200px;
+    height: 250px;
+    background-color: #6FCF97;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr3:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr4{
+    width: 200px;
+    height: 250px;
+    background-color:#9B51E0 ;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr4:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr5{
+    width: 200px;
+    height: 250px;
+    background-color:#56CCF2 ;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr5:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr6{
+    width: 200px;
+    height: 250px;
+   background-color: #F2C94C;
+   box-shadow: black 5px 5px 5px;
+   padding-left: 5px;
+   border-radius: 5px;
+   
+}
+
+#BookNr6:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr7{
+    width: 200px;
+    height: 250px;
+    background-color: #F2994A;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr7:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+#BookNr8{
+    width: 200px;
+    height: 250px;
+    background-color: #EB5757;
+    box-shadow: black 5px 5px 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    
+}
+
+#BookNr8:hover{
+    border: gray solid 2px;
+    box-shadow: rgba(255, 255, 255, 0.568) 5px 5px 5px;
+    
+}
+
+
+
+
+
+/*-------------    hidden content    ------------*/
+
+.hide{
+    display: none;
+ }
+ 
+
+
+.hidden {
+    display: none;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(24, 24, 24);
+    color: whitesmoke;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    padding: 10rem;
+   
+
+}
+
+#back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: white;
+    border: none;
+
+
+}
+
+#back:hover{
+    background-color:rgba(99, 79, 79, 0.196) ;
+    box-shadow: gray 5px 5px 5px;
+    cursor: pointer;
+}
+
+
+
+.hidden p{
+    font-size: large;
+    
+    width: 50%;
+}
+
+
+
